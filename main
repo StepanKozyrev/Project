@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 model = tf.keras.models.load_model('model_2')
-bot = telebot.TeleBot('6893683725:AAFFvI_T6Q6pkT8yTOZ4GO7-QRIQYr0_Pl4')
+bot = telebot.TeleBot('***')
 
 
 @bot.message_handler(commands=['start'])
